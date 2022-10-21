@@ -11,3 +11,6 @@ How to Install in termux;
 > cd Cyber-D
 > pip install -r req.txt(if not work >pip3 install -r req.txt)
 > python3 cyberD.py
+
+
+>copy Pasting is not allowed<

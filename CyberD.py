@@ -27,6 +27,7 @@ from openfunction import IpHackop
 from openfunction import tunnelop
 from openfunction import Slowlorisop
 from openfunction import exitop
+from openfunction import social_boxop
 
 # import function
 from function import zphisher
@@ -45,6 +46,7 @@ from function import mrphish
 from function import IpHack
 from function import tunnel
 from function import Slowloris
+from function import social_box
 
 os.system("clear")
 print(colored(logo,'blue') + colored(social_media,'red') +colored(startedup,"green"))
@@ -85,6 +87,10 @@ if open=="1":
         tunnelop()
     elif choose== "16":
         Slowlorisop()
+    elif choose=="17":
+        social_boxop()
+    
+# fixed nochange
     elif choose == "0":
         update()
     elif choose== "999":
@@ -130,6 +136,10 @@ elif open=="2":
         tunnel()
     elif choose== "16":
         Slowloris()
+    elif choose=="17":
+        social_box()
+
+# fixed nochange
     elif choose == "0":
         update()
     elif choose== "999":
@@ -138,6 +148,8 @@ elif open=="2":
         print(colored("[!] Invalid Option, Try Again...","red"))
         os.system("clear")
         os.system("python3 CyberD.py")
+elif open =="3":
+    update()
 
 elif open=="00":
     exit()

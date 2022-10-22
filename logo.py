@@ -9,7 +9,7 @@ logo= """
  """
 
 social_media= """
- ~ Instagram: https://instagram.com/cyber_d_army
+ ~ Instagram: https://instagram.com/kdo_shashank
  ~ Whatsapp: https://wa.me/+9779746554757
  ~ Telegram: https://t.me/kdobhai
 """
@@ -30,6 +30,7 @@ tools="""
 {14}--IpHack
 {15}--tunnel
 {16}--Slowloris(D-Dos)
+{17}--Social Box
 {00}--about
 {0}--Update
 {999}--exit
@@ -59,6 +60,7 @@ toolsop="""
 {14}--IpHack
 {15}--tunnel
 {16}--Slowloris(D-Dos)
+{17}--Social Box
 {0}--Update
 {00}--about
 {999}--exit
@@ -66,6 +68,7 @@ toolsop="""
 startedup="""
 {1}--open Tool
 {2}--install Tool
+{3}--Update
 {0}--about
 {00}--exit
 """
@@ -73,15 +76,18 @@ startedup="""
 about1="""
 [-]This tool is Created By Cyber-D team(K.D.O)
 """
+
 about2="""
 Author    :  K.D.O [ Cyber-D Team ]
 Github    :  https://github.com/kdo2064
 instagram :  https://instagram.com/kdo_shashank
 Version   :  1.1
 """
+
 about3="""
  Warning:
 """
+
 about4="""  
 This Tool is made for educational purpose
 only ! Author will not be responsible for

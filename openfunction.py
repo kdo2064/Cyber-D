@@ -35,7 +35,7 @@ def ngrokop():
     print("Hash_Cat")
 
 def MaskPhishop():
-    user=input(colored("Do you have install zphisher?(y/n):", "red"))
+    user=input(colored("Do you have install MaskPhish?(y/n):", "red"))
     if user=="y":
         os.system("cd .tools && cd maskphish && bash maskphish.sh")
     elif user=="n":
@@ -49,7 +49,7 @@ def MaskPhishop():
 
 
 def infectop():
-    user=input(colored("Do you have install zphisher?(y/n):", "red"))
+    user=input(colored("Do you have install infect?(y/n):", "red"))
     if user=="y":
        os.system("cd .tools && cd infect && bash infect.sh")
     elif user=="n":
@@ -63,7 +63,7 @@ def infectop():
 
 
 def AndroRatop():
-    user=input(colored("Do you have install zphisher?(y/n):", "red"))
+    user=input(colored("Do you have install AndroRAT?(y/n):", "red"))
     if user=="y": 
         p=input(colored("port:","yellow"))
         a=input(colored("apk name:","yellow"))
@@ -79,7 +79,7 @@ def AndroRatop():
 
 
 def IPTrackerop():
-    user=input(colored("Do you have install zphisher?(y/n):", "red"))
+    user=input(colored("Do you have install IP Tracker?(y/n):", "red"))
     if user=="y":
         ip=input(colored("Input the Ip:","red"))
         os.system("cd .tools && cd ip-tracker && python iptracker.py "+ ip)
@@ -94,7 +94,7 @@ def IPTrackerop():
 
 
 def PyPhisherop():
-    user=input(colored("Do you have install zphisher?(y/n):", "red"))
+    user=input(colored("Do you have install PyPhisher?(y/n):", "red"))
     if user=="y":
         os.system("cd .tools && cd PyPhisher && python3 pyphisher.py")
     elif user=="n":
@@ -108,7 +108,7 @@ def PyPhisherop():
 
 
 def kalimuxop():
-    user=input(colored("Do you have install zphisher?(y/n):", "red"))
+    user=input(colored("Do you have install kalimux?(y/n):", "red"))
     if user=="y":
         os.system("cd .tools && cd kalimux && sh kalimux.sh")
     elif user=="n":
@@ -122,7 +122,7 @@ def kalimuxop():
 
 
 def PhoneInfogaop():
-    user=input(colored("Do you have install zphisher?(y/n):", "red"))
+    user=input(colored("Do you have install Phone Infoga?(y/n):", "red"))
     if user=="y":
         os.system("cd .tools && cd PhoneInfoga && phoneinfoga.py -h")
     elif user=="n":
@@ -136,7 +136,7 @@ def PhoneInfogaop():
 
 
 def T_Bomberop():
-    user=input(colored("Do you have install zphisher?(y/n):", "red"))
+    user=input(colored("Do you have install T-Bomb?(y/n):", "red"))
     if user=="y":
         os.system("cd .tools && cd TBomb && ./TBomb.sh")
     elif user=="n":
@@ -149,7 +149,7 @@ def T_Bomberop():
 
 
 def metasploitop():
-    user=input(colored("Do you have install zphisher?(y/n):", "red"))
+    user=input(colored("Do you have install Metasploit?(y/n):", "red"))
     if user=="y":
         os.system("msfconsole")
     elif user=="n":
@@ -161,7 +161,7 @@ def metasploitop():
             os.system("python3 CyberD.py")
 
 def mrphishop():
-    user=input(colored("Do you have install zphisher?(y/n):", "red"))
+    user=input(colored("Do you have install mrphish?(y/n):", "red"))
     if user=="y":
         os.system("cd .tools && cd mrphish && bash setup && bash mrphish")
     elif user=="n":
@@ -174,7 +174,7 @@ def mrphishop():
 
 
 def IpHackop():
-    user=input(colored("Do you have install zphisher?(y/n):", "red"))
+    user=input(colored("Do you have install IpHack?(y/n):", "red"))
     if user=="y":
         os.system("cd .tools && bash install.sh")
     elif user=="n":
@@ -188,7 +188,7 @@ def IpHackop():
 
 
 def tunnelop():
-    user=input(colored("Do you have install zphisher?(y/n):", "red"))
+    user=input(colored("Do you have install Tunnel?(y/n):", "red"))
     if user=="y":
         os.system("cd .tools && cd tunnel && bash tunnel.sh")
     elif user=="n":
@@ -201,7 +201,7 @@ def tunnelop():
 
 
 def Slowlorisop():
-    user=input(colored("Do you have install zphisher?(y/n):", "red"))
+    user=input(colored("Do you have install Slowlorisop?(y/n):", "red"))
     if user=="y":
         web=input(colored("example.com:","red"))
         os.system("cd .tools && cd slowloris && python3 slowloris.py " + web)
@@ -211,6 +211,20 @@ def Slowlorisop():
             web=input(colored("example.com:","red"))
             os.system("cd .tools && git clone https://github.com/gkbrk/slowloris.git")
             os.system("cd .tools && cd slowloris && python3 slowloris.py " + web)
+        elif ask=="n":
+            os.system("python3 CyberD.py")
+
+def social_boxop():
+    user=input(colored("Do you have install Social_box?(y/n):", "red"))
+    if user=="y":
+        os.system("cd .tools && cd SocialBox-Termux && chmod +x install-sb.sh")
+        os.system("./install-sb.sh")
+    elif user=="n":
+        ask=input(colored("Do you want to install it:(y/n):","yellow"))
+        if ask == "y":
+            os.system("cd .tools && git clone https://github.com/samsesh/SocialBox-Termux.git")
+            os.system("cd .tools && cd SocialBox-Termux && chmod +x install-sb.sh")
+            os.system("./install-sb.sh")
         elif ask=="n":
             os.system("python3 CyberD.py")
 

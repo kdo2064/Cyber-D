@@ -159,6 +159,16 @@ def Slowloris():
         os.system("clear")
         os.system("python3 CyberD.py")
 
+def social_box():
+    user=input(colored("Do you want to install it?(y/n):", "red"))
+    if user=="y":
+        os.system("cd .tools && git clone https://github.com/samsesh/SocialBox-Termux.git")
+        os.system("cd .tools && cd SocialBox-Termux && chmod +x install-sb.sh")
+        os.system("./install-sb.sh")
+    elif user=="n":
+        os.system("clear")
+        os.system("python3 CyberD.py")
+
 def update():
     user=input(colored("Do you want to Update Cyber-D?(y/n):", "red"))
     if user=="y":

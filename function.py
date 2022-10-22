@@ -159,10 +159,10 @@ def update():
     user=input(colored("Do you want to Update Cyber-D?(y/n):", "red"))
     if user=="y":
         os.system("cd $HOME && rm -rf Cyber-D && git clone https://github.com/kdo2064/Cyber-D.git")
-        os.system("cd $HOME && cd Cyber-D && pip3 install -r req.txt && python3 CyberD.py")
+        os.system("cd $HOME && cd Cyber-D && python3 setup.py")
     elif user=="n":
         os.system("clear")
-        os.system("cd $HOME && python3 setup.py")
+        os.system("python3 CyberD.py")
 def exit():
     print(colored("Thanks","red") + colored(" For","green") + colored(" Using","blue"))
     os.system("exit")

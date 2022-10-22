@@ -162,7 +162,7 @@ def update():
         os.system("cd $HOME && cd Cyber-D && pip3 install -r req.txt && python3 CyberD.py")
     elif user=="n":
         os.system("clear")
-        os.system("cd $HOME && python3 CyberD.py")
+        os.system("cd $HOME && python3 setup.py")
 def exit():
     print(colored("Thanks","red") + colored(" For","green") + colored(" Using","blue"))
     os.system("exit")

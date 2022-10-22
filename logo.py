@@ -9,7 +9,7 @@ logo= """
  """
 
 social_media= """
- ~ Instagram: https://instagram.com/kdo_shashank
+ ~ Instagram: https://instagram.com/cyber_d_army
  ~ Whatsapp: https://wa.me/+9779746554757
  ~ Telegram: https://t.me/kdobhai
 """

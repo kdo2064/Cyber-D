@@ -65,10 +65,35 @@ toolsop="""
 {00}--about
 {999}--exit
  """
+
+toolsun="""
+{1}--Zphisher
+{2}--Red Hawk
+{3}--ngrok
+{4}--MaskPhish
+{5}--infect
+{6}--AndroRat
+{7}--IP-Tracer
+{8}--PyPhisher
+{9}--kalimux
+{10}--PhoneInfoga
+{11}--T-Bomber
+{12}--metasploit
+{13}--mrphish
+{14}--IpHack
+{15}--tunnel
+{16}--Slowloris(D-Dos)
+{17}--Social Box
+{0}--Update
+{00}--about
+{999}--exit
+ """
+
 startedup="""
 {1}--open Tool
 {2}--install Tool
-{3}--Update
+{3}--uninstall Tools
+{4}--Update
 {0}--about
 {00}--exit
 """

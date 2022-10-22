@@ -9,6 +9,7 @@ from logo import toolsop
 from logo import startedup
 from function import exit
 from function import about
+from logo import toolsun
 #import openfunction
 from openfunction import zphisherop
 from openfunction import Red_Hawkop
@@ -28,6 +29,25 @@ from openfunction import tunnelop
 from openfunction import Slowlorisop
 from openfunction import exitop
 from openfunction import social_boxop
+
+# import uninstall function
+from uninstallfunction import zphisherun
+from uninstallfunction import Red_Hawkun
+from uninstallfunction import ngrokun
+from uninstallfunction import MaskPhishun
+from uninstallfunction import infectun
+from uninstallfunction import AndroRatun
+from uninstallfunction import IPTrackerun
+from uninstallfunction import PyPhisherun
+from uninstallfunction import kalimuxun
+from uninstallfunction import PhoneInfogaun
+from uninstallfunction import metasploitun
+from uninstallfunction import T_Bomberun
+from uninstallfunction import mrphishun
+from uninstallfunction import IpHackun
+from uninstallfunction import tunnelun
+from uninstallfunction import Slowlorisun
+from uninstallfunction import social_boxun
 
 # import function
 from function import zphisher
@@ -148,7 +168,49 @@ elif open=="2":
         print(colored("[!] Invalid Option, Try Again...","red"))
         os.system("clear")
         os.system("python3 CyberD.py")
-elif open =="3":
+
+
+elif open=="3":
+    os.system("clear")  
+    print(colored(logo,'blue') + colored(social_media,'red') + colored(toolsun,'green'))
+    choose=input(colored("Choose a Option:",'yellow'))
+    if choose == "1":
+        zphisherun() 
+    elif choose == "2":
+        Red_Hawkun()
+    elif choose == "3":
+        ngrokun()
+    elif choose == "4":
+        MaskPhishun()
+    elif choose == "5":
+        infectun()
+    elif choose == "6":
+        AndroRatun()
+    elif choose == "7":
+        IPTrackerun()
+    elif choose == "8":
+        PyPhisherun()
+    elif choose == "9":
+        kalimuxun()
+    elif choose == "10":
+        PhoneInfogaun()
+    elif choose == "11":
+        T_Bomberun()
+    elif choose == "12":
+        metasploitun()
+    elif choose == "13":
+        mrphishun()
+    elif choose == "14":
+        IpHackun()
+    elif choose== "15":
+        tunnelun()
+    elif choose== "16":
+        Slowlorisun()
+    elif choose=="17":
+        social_boxun()
+
+
+elif open =="4":
     update()
 
 elif open=="00":

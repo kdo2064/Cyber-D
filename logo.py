@@ -30,7 +30,7 @@ tools="""
 {14}--IpHack
 {15}--tunnel
 {16}--Slowloris(D-Dos)
-{0}--Update
+{0}--
 {999}--exit
  """
 

@@ -4,10 +4,11 @@ import os
 from logo import logo
 from logo import social_media
 from logo import tools
-from function import update
+from function import about, update
 from logo import toolsop
 from logo import startedup
 from function import exit
+from function import about
 #import openfunction
 from openfunction import zphisherop
 from openfunction import Red_Hawkop
@@ -88,6 +89,10 @@ if open=="1":
         update()
     elif choose== "999":
         exitop()
+    else:
+        print(colored("[!] Invalid Option, Try Again...","red"))
+        os.system("clear")
+        os.system("python3 CyberD.py")
     
 elif open=="2":
     os.system("clear")  
@@ -129,6 +134,17 @@ elif open=="2":
         update()
     elif choose== "999":
         exitop()
+    else:
+        print(colored("[!] Invalid Option, Try Again...","red"))
+        os.system("clear")
+        os.system("python3 CyberD.py")
+
+elif open=="00":
+    exit()
 
 elif open=="0":
-    exit()
+    about()
+else:
+        print(colored("[!] Invalid Option, Try Again...","red"))
+        os.system("clear")
+        os.system("python3 CyberD.py")

@@ -2,7 +2,10 @@ import os
 from termcolor import colored
 import webbrowser
 from logo import cont
-
+from logo import about1
+from logo import about2
+from logo import about3
+from logo import about4
 
 def zphisher():
     user=input(colored("Do you want to install it?(y/n):", "red"))
@@ -166,3 +169,13 @@ def update():
 def exit():
     print(colored("Thanks","red") + colored(" For","green") + colored(" Using the Tool","blue"))
     os.system("exit")
+
+def about():
+    print(colored(about1,"green",attrs=['reverse', 'blink']) + (colored(about2,"yellow")) + (colored(about3,"red",attrs=['reverse', 'blink'])) + (colored(about4,"blue")))
+    what=input(colored("{0}--exit:","yellow"))
+    if what=="0":
+        os.system("python3 CyberD.py")
+    else:
+        print(colored("[!] Invalid Option, Try Again...","red"))
+        os.system("clear")
+        os.system("python3 CyberD.py")

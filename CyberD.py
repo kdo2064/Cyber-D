@@ -5,8 +5,9 @@ from logo import logo
 from logo import social_media
 from logo import tools
 from function import update
-from function import exit
 from logo import toolsop
+from logo import startedup
+from function import exit
 #import openfunction
 from openfunction import zphisherop
 from openfunction import Red_Hawkop
@@ -45,8 +46,8 @@ from function import tunnel
 from function import Slowloris
 
 os.system("clear")
-print(colored(logo,'blue') + colored(social_media,'red'))
-open=input(colored("(1)open tools or (2)install tools:","green"))
+print(colored(logo,'blue') + colored(social_media,'red') +colored(startedup,"green"))
+open=input(colored("Choose a Option:","yellow"))
 if open=="1":
     os.system("clear")  
     print(colored(logo,'blue') + colored(social_media,'red') + colored(toolsop,'green'))
@@ -127,4 +128,7 @@ elif open=="2":
     elif choose == "0":
         update()
     elif choose== "999":
-        exit()
+        exitop()
+
+elif open=="0":
+    exit()

@@ -16,11 +16,12 @@
 
 
 <h3 align="left">Support:</h3>
-<p><a href="https://www.buymeacoffee.com/kdo2006"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="@kdo2006" /></a></p><br><br>
+<p><a href="https://www.buymeacoffee.com/kdo2006"> <img align="left" src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" height="50" width="210" alt="@kdo2064" /></a></p><br><br>
 
 <h3 align="left">Tool:</h3>
 <h4>This tool is made for termux user. You can install and open tool by the help of this</h4>
-<img src="img/sample.jpeg" align="left" width="40%" height="auto">
+<img src="img/sample.jpeg" align="left" width="40%" height="auto">&nbsp;
+<img src="/img/cyber-dv2.jpeg" align="right" width="40%" height="auto">
 <h2 align="center">How to Install?</h2>
 <h4>
 > pkg update<br>

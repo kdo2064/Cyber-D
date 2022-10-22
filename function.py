@@ -164,5 +164,5 @@ def update():
         os.system("clear")
         os.system("python3 CyberD.py")
 def exit():
-    print(colored("Thanks","red") + colored(" For","green") + colored(" Using","blue"))
+    print(colored("Thanks","red") + colored(" For","green") + colored(" Using the Tool","blue"))
     os.system("exit")

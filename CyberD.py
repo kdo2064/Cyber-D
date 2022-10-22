@@ -46,7 +46,7 @@ from function import Slowloris
 
 os.system("clear")
 print(colored(logo,'blue') + colored(social_media,'red'))
-open=input(colored("(1) for opening or (2) for instaling tool:","green"))
+open=input(colored("(1)opening tools or (2)instaling tools:","green"))
 if open=="1":
     os.system("clear")  
     print(colored(logo,'blue') + colored(social_media,'red') + colored(toolsop,'green'))

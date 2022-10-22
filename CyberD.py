@@ -49,7 +49,7 @@ from function import Slowloris
 from function import social_box
 
 os.system("clear")
-print(colored(logo,'blue') + colored(social_media,'red') +colored(startedup,"green"))
+print(colored(logo,'blue')   + colored(social_media,'red') +colored(startedup,"green"))
 open=input(colored("Choose a Option:","yellow"))
 if open=="1":
     os.system("clear")  

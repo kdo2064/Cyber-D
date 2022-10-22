@@ -20,7 +20,7 @@
 
 <h3 align="left">Tool:</h3>
 <h4>This tool is made for termux user. You can install and open tool by the help of this</h4>
-<img src="img/sample.jpeg">
+<img src="img/sample.jpeg" align="left" width="auto" height="40%">
 <h2 align="center">How to Install?</h2>
 <h4>
 > pkg update<br>

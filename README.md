@@ -9,7 +9,7 @@ How to Install in termux;
 > pkg install python3
 > git clone https://github.com/kdo2064/Cyber-D.git
 > cd Cyber-D
-> pip install -r req.txt(if not work >pip3 install -r req.txt)
+> python3 setup.py
 > python3 cyberD.py
 
 

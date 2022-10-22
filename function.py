@@ -1,11 +1,12 @@
 import os
 from termcolor import colored
 import webbrowser
-from logo import cont
 from logo import about1
 from logo import about2
 from logo import about3
 from logo import about4
+from logo import logo
+from logo import social_media
 
 def zphisher():
     user=input(colored("Do you want to install it?(y/n):", "red"))
@@ -171,6 +172,7 @@ def exit():
     os.system("exit")
 
 def about():
+    print(colored(logo,'blue') + colored(social_media,'red'))
     print(colored(about1,"green",attrs=['reverse', 'blink']) + (colored(about2,"yellow")) + (colored(about3,"red",attrs=['reverse', 'blink'])) + (colored(about4,"blue")))
     what=input(colored("{0}--exit:","yellow"))
     if what=="0":

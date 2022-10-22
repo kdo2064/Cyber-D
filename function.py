@@ -172,6 +172,7 @@ def exit():
     os.system("exit")
 
 def about():
+    os.system("clear")
     print(colored(logo,'blue') + colored(social_media,'red'))
     print(colored(about1,"green",attrs=['reverse', 'blink']) + (colored(about2,"yellow")) + (colored(about3,"red",attrs=['reverse', 'blink'])) + (colored(about4,"blue")))
     what=input(colored("{0}--exit:","yellow"))

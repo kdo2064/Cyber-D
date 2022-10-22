@@ -25,7 +25,7 @@
 <img src="img/sample.jpeg">
 <h2 align="center">How to Install?</h2>
 <h4>
-> pkg update<br>
+# pkg update<br>
 > pkg upgrade<br>
 > pkg install git<br>
 > pkg install python3<br>

@@ -3,9 +3,7 @@
 
 - 🔭 I’m currently working on [Cyber-D](https://github.com/kdo2064/Cyber-D/)
 
-- 👨‍💻 All of my projects are available at [kdo2064](kdo2064)
-
-- 📫 How to reach me **instagram: kdo_shashank**
+- 📫 How to reach me **mshashank@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">

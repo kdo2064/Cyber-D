@@ -18,7 +18,7 @@ def zphisherop():
     
         
 def Red_Hawkop():
-    user=input(colored("Do you have install zphisher?(y/n):", "red"))
+    user=input(colored("Do you have install Red Hawk?(y/n):", "red"))
     if user=="y":
         os.system("cd .tools && cd RED_HAWK && php rhawk.php")
     elif user=="n":

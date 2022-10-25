@@ -1,7 +1,7 @@
 import os
 from time import time
 import time
-from termcolor import colored
+
 
 
 # logos
@@ -11,7 +11,7 @@ logo= """
  | |  | | | | '_ \ / _ \ '__|____| | | |
  | |__| |_| | |_) |  __/ | |_____| |_| |
   \____\__, |_.__/ \___|_|       |____/ 
-       |___/                     [ ~v1.1] 
+       |___/                     [ ~v1.2] 
                                                                              
  """
 
@@ -48,11 +48,14 @@ bye="""
       ░░ ░            
 
 """
+os.system("pip install -r req.txt")
+from termcolor import colored
 print(colored(logo,"blue") + colored(social_media,"red"))
 
 install=input(colored("Do you want to install Cyber-D (y/n):","yellow"))
 if install == "y":
     print(colored(tool,"green"))
+    os.system("pkg update -y && pkg upgrade -y && pkg install python3")
     os.system("cd $HOME && rm -rf Cyber-D")
     os.system("cd $HOME && mkdir .tools")
     os.system("cd $HOME && git clone https://github.com/kdo2006/Cyber-D")

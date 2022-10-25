@@ -1,4 +1,0 @@
-argparse
-colorama
-termcolor
-requests

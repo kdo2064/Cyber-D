@@ -50,6 +50,7 @@ bye="""
 """
 os.system("pip install -r req.txt")
 from termcolor import colored
+os.system("clear")
 print(colored(logo,"blue") + colored(social_media,"red"))
 
 install=input(colored("Do you want to install Cyber-D (y/n):","yellow"))

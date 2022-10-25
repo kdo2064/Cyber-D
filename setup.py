@@ -53,7 +53,6 @@ print(colored(logo,"blue") + colored(social_media,"red"))
 install=input(colored("Do you want to install Cyber-D (y/n):","yellow"))
 if install == "y":
     print(colored(tool,"green"))
-    os.system("pkg update -y && pkg upgrade -y && pkg install python3")
     os.system("cd $HOME && rm -rf Cyber-D")
     os.system("cd $HOME && mkdir .tools")
     os.system("cd $HOME && git clone https://github.com/kdo2006/Cyber-D")

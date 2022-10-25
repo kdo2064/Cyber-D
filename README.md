@@ -30,5 +30,5 @@
 > git clone https://github.com/kdo2064/Cyber-D.git<br>
 > cd Cyber-D<br>
 > python3 setup.py<br>
-  <h3>once you install Cyber-D tool then after you have to use python3 cyberD.py instead of python3 setup.py</h3> 
+  <h3>once you install Cyber-D tool then after you have to use<b><font color="red"> python3 cyberD.py instead of python3 setup.py</font></b></h3> 
 

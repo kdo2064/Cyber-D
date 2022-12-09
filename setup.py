@@ -53,6 +53,7 @@ from termcolor import colored
 os.system("clear")
 print(colored(logo,"blue") + colored(social_media,"red"))
 
+#code write by kdo
 install=input(colored("Do you want to install Cyber-D (y/n):","yellow"))
 if install == "y":
     print(colored(tool,"green"))
